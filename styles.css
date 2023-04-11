@@ -92,8 +92,8 @@ html{
 .paginas p{
     margin: 20px;
 }
-.paginas a{
-    color: #1100ff;
+.container-paginas a{
+    text-decoration: none;
 }
 
 /*   ///////////////////////////////////////////////////////////// */
