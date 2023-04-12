@@ -34,7 +34,7 @@ html{
 .contacto h2,p,a{
     margin: 5px 10px;
 }
-.contacto h3{
+.contacto h2{
     text-decoration: underline;
 }
 .info{
@@ -83,6 +83,7 @@ html{
     margin: 20px;
     display: flex;
     flex-direction: row;
+    transition: .5s;
 }
 .paginas img{
     width: 300px;
@@ -94,6 +95,10 @@ html{
 }
 .container-paginas a{
     text-decoration: none;
+}
+.paginas:hover{
+    transition: .5s;
+    box-shadow:5px 10px 15px #4242427e;
 }
 
 /*   ///////////////////////////////////////////////////////////// */
